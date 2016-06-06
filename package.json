@@ -1,0 +1,39 @@
+{
+  "name": "url-parse-fix-auth",
+  "version": "0.0.1",
+  "description": "Fix `url.parse` to work with percent (%) characters in auth strings",
+  "main": "index.coffee",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "coffee-script" : "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Andreas Pizsa <andreas@trello.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/AndreasPizsa/url-parse-fix-auth",
+  "repository": "AndreasPizsa/url-parse-fix-auth",
+  "bugs": {
+    "url": "https://github.com/AndreasPizsa/url-parse-fix-auth/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "fix",
+    "bugfix",
+    "url.parse",
+    "parse",
+    "url",
+    "password",
+    "percent",
+    "error",
+    "exception"
+  ]
+}
